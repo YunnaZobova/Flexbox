@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Формвтирование кода shift + alt + f -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900&display=swap"
+		rel="stylesheet" /> -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Подключение стилей -->
+	<title>Flexbox</title>
+</head>
+<body>
+	<div class="wrapper"> <!-- Это обертка для всей страницы -->
+		<div class="content"> <!-- Это блок всего нашего контента -->
+			<div class="hi"> <!-- Это первый блок -->
+				<div class='container'> <!-- Это контейнер для контента первого блока, для него задается max-width:(1280px-100px поля)-->
+					<div class="hi__row"> <!-- Это непосредственно контент нашего первого блока -->
+						<div class="hi__body">
+							<div class="hi__title">Привет, друг!</div>
+							<ul class="hi__list">
+								<li>У тебя все получится!</li>
+								<li>Никогда не сдавайся!</li>
+								<li>Сегодня ты уже знаешь больше чем вчера!</li>
+								<li>Спасибо тебе за поддержку!</li>
+							</ul>
+						</div>
+						<div class="hi__image">
+							<img src="img/hi.jpg" alt="hi">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="what"> <!-- Это второй блок -->
+				<div class='container'> <!-- Это контейнер для контента второго, для него задается max-width:(1280px-100px поля)-->
+					<div class="what__row"> <!-- Это непосредственно контент нашего второго блока -->
+						<div class="what__image">
+								<img src="img/video_14.png" alt="video">
+						</div>
+						<div class="what__body">
+							<div class="what__title title">Что такое FlexBox?</div>
+							<div class="what__text">
+								<p>Flexbox - это целый модуль, содержащий в себе набор свойств и их значений как для родителя flex-контейнера так и для его дочерних элементов flex-элементов.</p>
+								<p>Основным преимуществом гибкой FLEX разметки является возможность изменять ширину/высоту пространство вокруг и порядок flex-элементов, для того чтобы наилучшим образом заполнить доступное пространство flex-контейнера</p>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
