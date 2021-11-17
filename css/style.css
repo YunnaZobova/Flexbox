@@ -119,3 +119,87 @@ body{
 .what__text p:last-child{
 	margin: 0;
 }
+/*---------------------------ТРЕТИЙ БЛОК--------------------------------*/
+.columns {
+	background-color: #f5f5f5;
+	padding: 50px 0 20px 0;
+}
+.columns__title {
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+.columns__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -8px;
+}
+.columns__column {
+	flex: 0 1 50%;
+	padding: 0px 8px;
+	margin: 0px 0px 30px 0px;
+}
+.columns__item {
+}
+.item {
+}
+.item__row {
+	display: flex;
+}
+.item__image {
+	flex: 0 0 200px;
+}
+.item__body {
+	padding: 0px 0px 0px 15px;
+	flex: 1 1 auto;
+}
+.item__title {	
+	font-size: 24px;
+	margin: 0px 0px 15px 0px;
+	color: #445161;
+}
+.item__text {
+	font-size: 16px;
+	line-height: 24px;
+	color: #333333;
+}
+
+.vertical {
+	padding: 49px 0px 50px 0px;
+}
+.vertical__title {
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+.vertical__body {
+
+}
+.vertical__row {
+
+}
+.vertical__column {
+
+}
+.vertical__column_1 {
+
+}
+.vertical__item {
+
+}
+.vertical__subtitle {
+
+}
+.vertical__label {
+
+}
+.vertical__text {
+
+}
+.vertical__btn {
+
+}
+.vertical__column_2 {
+
+}
+.vertical__column_3 {
+
+}
