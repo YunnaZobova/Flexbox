@@ -1,4 +1,4 @@
-# Юнна Зобова
+# Flexbox
 
-[Flexbox](https://yunnazobova.github.io/Flexbox/)
+[Ссылка на сайт](https://yunnazobova.github.io/Flexbox/)
 
